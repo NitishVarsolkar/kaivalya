@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaivalya - Home</title>
+    <style>
+        body {
+            background-color: #fff7e3; /* Set background color */
+            color: #a11d1d; /* Set text color */
+            font-family: Arial, sans-serif; /* Set font */
+            margin: 0; /* Remove default margin */
+            padding: 20px; /* Add some padding */
+            text-align: center; /* Center align text and images */
+            position: relative; /* Set position to relative for absolute positioning of the text */
+        }
+        nav {
+            display: flex; /* Use flexbox for layout */
+            justify-content: space-between; /* Space between left and right */
+            align-items: center; /* Center items vertically */
+            margin-bottom: 20px; /* Space below navigation */
+        }
+        nav a {
+            margin: 0 15px; /* Space between links */
+            text-decoration: none; /* Remove underline */
+            color: #a11d1d; /* Link color */
+        }
+        img {
+            max-width: 10%; /* Make the image responsive */
+            height: auto; /* Maintain aspect ratio */
+            display: block; /* Center the image */
+            margin: 0 auto; /* Center the image */
+        }
+        .kundali-help {
+            position: absolute; /* Position it absolutely */
+            left: 20px; /* Distance from the left */
+            top: 50%; /* Center vertically */
+            transform: translateY(90%); /* Adjust for vertical centering */
+            font-size: 72px; /* Font size */
+            font-weight: normal; /* Bold text */
+            font-family: 'broadway regular'; /* Font family */  
+            color: #fb2621; /* Text color */
+        }
+        .we-got-you {
+            position: absolute; /* Position it absolutely */
+            left: 25px; /* Distance from the left */
+            top: 60%; /* Position below the Kundali Help text */
+            transform: translateY(200%); /* Adjust for vertical centering */
+            font-size: 60px; /* Font size */
+            font-weight: bold; /* Normal weight */
+            color: black; /* Text color */
+            font-family: Arial, sans-serif; /* Font family */
+        }
+        .sun-image {
+            position: absolute; /* Position it absolutely */
+            right: 20px; /* Distance from the right */
+            top: 0%; /* Center vertically */
+            transform: translateY(25%); /* Adjust for vertical centering */
+            max-width: 40%; /* Adjust size as needed */
+            height: auto; /* Maintain aspect ratio */
+        }
+        .flower-panel {
+            display: flex; /* Use flexbox for layout */
+            justify-content: center; /* Center align the flowers */
+            margin-top: 50px; /* Space above the flower panel */
+            position: fixed;
+            bottom: 0;
+        }
+        .flower-image {
+            width: 90px; /* Set width for flower images */
+            height: auto; /* Maintain aspect ratio */
+            margin: 0 10px; /* Space between flower images */
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="chatbot.html">Chatbot</a>
+        </div>
+        <img src="logo.png" alt="Logo" onclick="location.href='index.html'" /> <!-- Logo links to Home -->
+        <div>
+            <a href="about.html">About Us</a>
+            <a href="horoscope.html">Horoscope</a>
+        </div>
+    </nav>
+    <p class="kundali-help">Kundali Help?</p> <!-- Added Kundali Help text -->
+    <p class="we-got-you">We got you...</p> <!-- Added We got you text -->
+    <img src="sun.png" alt="Sun" class="sun-image" /> <!-- Add your sun image here -->
+
+    <!-- Flower Panel -->
+    <div class="flower-panel">
+        <img src="flower.png" alt="Flower" class="flower-image" />
+        <img src="flower.png" alt="Flower" class="flower-image" />
+        <img src="flower.png" alt="Flower" class="flower-image" />
+        <img src="flower.png" alt="Flower" class="flower-image" />
+        <img src="flower.png" alt="Flower" class="flower-image" />
+        <img src="flower.png" alt="Flower" class="flower-image" />
+        <img src="flower.png" alt="Flower" class="flower-image" />
+        <img src="flower.png" alt="Flower" class="flower-image" />
+        <img src="flower.png" alt="Flower" class="flower-image" />
+        <img src="flower.png" alt="Flower" class="flower-image" />
+        <img src="flower.png" alt="Flower" class="flower-image" />
+        <img src="flower.png" alt="Flower" class="flower-image" />
+        <img src="flower.png" alt="Flower" class="flower-image" />
+        <img src="flower.png" alt="Flower" class="flower-image" />
+    </div>
+</body>
+</html>
